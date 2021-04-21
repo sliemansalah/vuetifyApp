@@ -1,16 +1,12 @@
 <template>
   <div class="home">
-    <SideHeaderBar/>
+    test me home page
   </div>
 </template>
 
 <script>
-import SideHeaderBar from '@/components/SideHeaderBar';
 export default {
   name: 'Home',
-  components: {
-      SideHeaderBar,
-  },
   data () {
     return {
     }

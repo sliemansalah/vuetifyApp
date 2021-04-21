@@ -76,6 +76,10 @@
         </v-app-bar>
       </v-col>
     </v-row>
+
+     <v-row :style="drawer?'margin-right: 17rem;': 'margin-right: 1rem;'">
+        <router-view />
+    </v-row>
   </div>
 </template>
 

@@ -1,15 +1,19 @@
 <template>
   <v-app :dir="direction">
-    <router-view />
+    <SideHeaderBar />
   </v-app>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        direction: 'rtl'
-      }
-    }
-  }
+import SideHeaderBar from "@/components/SideHeaderBar";
+export default {
+  components: {
+    SideHeaderBar,
+  },
+  data() {
+    return {
+      direction: "rtl",
+    };
+  },
+};
 </script>
